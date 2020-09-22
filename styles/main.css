@@ -14,17 +14,17 @@ html, body,
 }
 
 body{
-background-color: #F7F7F7;
+background-color: #99b18c;
 
 }
 .container
 {
-    background-color: #F7F7F7;
+    background-color: #99b18c;
 }
 
 .header
 {
-    background-color: #F7F7F7;
+    background-color: #99b18c;
     height: 14.5%;
     padding: 1em;
 }
@@ -36,7 +36,7 @@ background-color: #F7F7F7;
 
 .left
 {
-    background-color: #F7F7F7;
+    background-color: #99b18c;
     float:left;
     width:20%;
     height:80%;
@@ -45,7 +45,7 @@ background-color: #F7F7F7;
 
 .right
 {
-    background-color: #F7F7F7;
+    background-color: #99b18c;
     float:left;
     width: 40%;
     height:80%;
@@ -54,7 +54,7 @@ background-color: #F7F7F7;
 
 
 .main{
-    background-color:#F7F7F7;
+    background-color:#99b18c;
     float:left;
     height:80%;
     width: 40%;
