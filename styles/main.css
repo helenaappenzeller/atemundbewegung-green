@@ -3,6 +3,16 @@ html, body,
     height:100%;
 }
 
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 body{
 background-color: #F7F7F7;
 
@@ -49,6 +59,9 @@ background-color: #F7F7F7;
     height:80%;
     width: 40%;
     overflow-y:scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+      /* This is the magic bit for Firefox */
+    scrollbar-width: none;
 }
 
 .text{
@@ -65,6 +78,7 @@ background-color: #F7F7F7;
 }
 .haus{
 max-height: 3.2em;
+padding-right:1em;
 }
 a{  
     font-family: 'Roboto', sans-serif;
@@ -154,22 +168,34 @@ tr{
 }
 
 /* For desktop: */
-.col-1 {width: 15%;
-    height: 10%;
+.col-1 {width: auto;
 }
-.col-2 {width: 35%;
-    height: 10%;
+.col-2 {width: auto;
 }
-.col-3 {width: 15%;
-    height: 10%;
+.col-3 {width: 50%;
 }
-.col-4 {width: 35%;
-    height: 10%;
+.col-4 {width: 50%;
 }
-.col-5 {width: 50%;
-}
-.col-6 {width: 50%;
-}
+
+/*@media only screen and (max-width:800px) {
+  .col-1 {
+    width:20%;
+  }
+ 
+@media only screen and (max-width:800px) {
+  .col-2 {
+    width:80%;
+  }*/
+
+@media only screen and (max-width:800px) {
+  .col-3 {
+    width:100%;
+  }
+ 
+@media only screen and (max-width:1100px) {
+  .col-4 {
+    width:100%;
+  }
 
 @media only screen and (max-width:800px) {
   .main, .right, .left {
