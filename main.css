@@ -171,6 +171,7 @@ tr{
 .col-1 {width: auto;
 }
 .col-2 {width: auto;
+    padding: 2em;
 }
 .col-3 {width: 50%;
     padding: 2em;
