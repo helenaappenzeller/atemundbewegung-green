@@ -173,6 +173,7 @@ tr{
 .col-2 {width: auto;
 }
 .col-3 {width: 50%;
+    padding-left: 4em;
 }
 .col-4 {width: 50%;
 }
