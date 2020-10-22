@@ -52,17 +52,22 @@ background-color: #99b18c;
     overflow: hidden;
 }
 
-
 .main{
     background-color:#99b18c;
     float:left;
     height:80%;
     width: 40%;
     overflow-y:scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-      /* This is the magic bit for Firefox */
-    scrollbar-width: none;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .text{
