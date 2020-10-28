@@ -149,6 +149,9 @@ table{
 tr{
     vertical-align: top;
 }
+td{
+    padding-bottom: 2em;
+}
 
 .year{
     width: 20%;
