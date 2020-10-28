@@ -145,10 +145,10 @@ table{
      font-family: 'Roboto', sans-serif;
      line-height: 1.5;
      font-weight: 300;
+    padding-bottom: 3em;
 }
 tr{
     vertical-align: top;
-    padding-bottom: 3em;
 }
 
 .year{
