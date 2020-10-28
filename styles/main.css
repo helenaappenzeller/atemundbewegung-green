@@ -193,7 +193,7 @@ tr{
 @media only screen and (max-width:1200px) {
   .col-3 {
     width:100%;
-  }
+    }}
     
 /*@media only screen and (max-width:800px) {
   .col-3 {
@@ -205,15 +205,15 @@ tr{
     width:100%;
     height: auto;
     overflow: auto;
-  }
+    }}
 @media only screen and (max-width:800px) {
   .mobilebild {
     display: block;
-  }
+    }}
 @media only screen and (max-width:800px) {
   .right {
     display: none;
-  }
+    }}
  @media only screen and (max-width:800px) {
   .header {
-height: 12%;  }
+      height: 12%;  }}
