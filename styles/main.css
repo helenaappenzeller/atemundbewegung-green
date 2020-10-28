@@ -146,11 +146,13 @@ table{
      line-height: 1.5;
      font-weight: 300;
 }
+
 tr{
     vertical-align: top;
 }
+
 td{
-    padding-bottom: 0.2em;
+    padding-bottom: 5px;
 }
 
 .year{
