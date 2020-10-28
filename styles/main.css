@@ -148,6 +148,7 @@ table{
 }
 tr{
     vertical-align: top;
+    padding-bottom: 1em;
 }
 
 .year{
