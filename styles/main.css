@@ -152,6 +152,9 @@ table{
 tr{
     vertical-align: top;
 }
+td{
+    padding-bottom: 1px;
+}
 
 .year{
     width: 20%;
@@ -217,3 +220,6 @@ tr{
  @media only screen and (max-width:800px) {
   .header {
       height: 12%;  }}
+ @media only screen and (max-width:800px) {
+  td{
+      padding-bottom: 10px;}}
